@@ -1,0 +1,91 @@
+<!-- 
+For reporting pain 
+-->
+
+
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Sick Report</title> 
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0-rc.2/jquery.mobile-1.2.0-rc.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0-rc.2/jquery.mobile-1.2.0-rc.2.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>Sick Report</h1>
+
+		<a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse">Home</a>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		
+
+
+		<label for="select-choice-0" class="select">Where is the pain?</label>
+		<select name="select-choice-0" id="select-choice-0">
+		<option value="head">Head</option>
+		<option value="shoulders">Shoulders</option>
+		<option value="knees">Knees</option>
+		<option value="toes">Toes</option>
+		</select>
+
+
+
+		<fieldset data-role="controlgroup">
+    	<input type="radio" name="radio-mini" id="radio-mini-1" value="choice-1" checked="checked" />
+    	<label for="radio-mini-1">no pain</label>
+
+	<input type="radio" name="radio-mini" id="radio-mini-2" value="choice-2"  />
+    	<label for="radio-mini-2">mild pain</label>
+    	
+    	<input type="radio" name="radio-mini" id="radio-mini-3" value="choice-3"  />
+    	<label for="radio-mini-3">moderate pain</label>
+
+    	<input type="radio" name="radio-mini" id="radio-mini-4" value="choice-4"  />
+    	<label for="radio-mini-4">severe pain</label>
+
+    	<input type="radio" name="radio-mini" id="radio-mini-5" value="choice-5"  />
+    	<label for="radio-mini-5">very severe pain</label>
+
+
+		</fieldset>
+
+
+
+		<button type="submit" data-theme="a">Add</button>
+
+
+
+		<a href="#" data-role="button">Past Reports</a>
+
+	
+<!-- 
+		<ul data-role="listview" data-inset="true">
+			
+			<li><a href="#">Medical Data</a></li>	
+			<li><a href="#">Settings</a></li>
+		</ul>
+ -->
+
+		<!--
+		
+		recently added data
+
+		-->
+
+
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>
