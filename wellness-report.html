@@ -1,0 +1,103 @@
+<!-- 
+For reporting wellness and other events 
+-->
+
+
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Fitness Report</title> 
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0-rc.2/jquery.mobile-1.2.0-rc.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0-rc.2/jquery.mobile-1.2.0-rc.2.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>Fitness Report</h1>
+		<a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse">Home</a>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		
+		<p>
+			Gain 10 points for adding an fitness report
+		</p>
+
+
+		<label for="select-choice-0" class="select">What did you do?</label>
+		<select name="select-choice-0" id="select-choice-0">
+		<option value="run">Run</option>
+		<option value="walk">Walk</option>
+		<option value="hike">Hike</option>
+		<option value="swim">Swim</option>
+		
+		
+		</select>
+
+
+
+		<div data-role="fieldcontain">
+	         <label for="number">How long ?(minutes)</label>
+	         <input type="number" name="number" id="number" value="" />
+		</div>
+
+
+		<div data-role="fieldcontain">
+	         <label for="distance">How far ?(km)</label>
+	         <input type="number" name="distance" id="distance" value="" />
+		</div>
+
+
+
+
+	<!-- 	<label for="slider-1">How Long?</label>
+<input type="range" name="slider-1" id="slider-1" value="60" min="0" max="100" />
+ -->
+		
+
+
+
+		<button type="submit" data-theme="a">Add</button>
+
+		
+		<ul>
+			<li>
+				<a href="#">Past Entries</a>
+			</li>
+
+
+			<li>
+				<a href="settings.html">Sync with other services</a>
+			</li>
+		</ul>
+
+
+<!-- 
+		<ul data-role="listview" data-inset="true">
+			
+			<li><a href="#">Medical Data</a></li>	
+			<li><a href="#">Settings</a></li>
+		</ul>
+ -->
+
+		<!--
+		
+		recently added data
+
+		-->
+
+
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>

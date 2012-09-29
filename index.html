@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Home</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0-rc.2/jquery.mobile-1.2.0-rc.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0-rc.2/jquery.mobile-1.2.0-rc.2.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>Gemba Health Tracker</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+
+
+		<a href="#reports" data-rel="popup" data-role="button" data-icon="plus">Add Report</a>
+
+
+
+
+		<div data-role="popup" id="reports" data-theme="a">
+				<ul data-role="listview" data-inset="true">
+				<li><a href="wellness-report.html">Fitness Report</a></li>
+				
+				<li><a href="diet-report.html">Diet Report</a></li>
+
+				<li><a href="measurement-report.html">Measurement Report</a></li>
+
+				<li><a href="sick-report.html">Sick Report</a></li>
+				</ul>
+		</div>
+
+
+
+		
+		<p>
+			Current status
+		</p>
+
+		<div data-role="controlgroup" data-type="horizontal" data-mini="true">
+			<a href="#" data-role="button" class="ui-btn-active">Good</a>
+			<a href="#" data-role="button">OK</a>
+			<a href="#" data-role="button">Bad</a>
+
+		</div>
+
+		<p>
+			Your Goal : Lose 4 KG (200 points)
+				
+		</p>
+		<ul>
+			
+		</ul>
+
+<!-- 		<img src="img/350x150.gif" />
+ -->
+		<p>	
+			Add regular reports to gain more points! <br />
+
+			Points Total : 136. <br />
+
+			Current Insurance Reductions = 200CHF
+
+			<br />
+		</p>
+
+		
+		<ul data-role="listview" data-inset="true">
+			
+			<li><a href="#">Statistics and Rewards</a></li>	
+			<li><a href="#">Recently Added Reports</a></li>
+		</ul>
+
+
+
+
+		<ul data-role="listview" data-inset="true">
+			
+			<li><a href="medical-records.html">Medical Data</a></li>	
+			<li><a href="settings.html">Settings</a></li>
+		</ul>
+
+
+		<!--
+		
+		recently added data
+
+		-->
+
+
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>
