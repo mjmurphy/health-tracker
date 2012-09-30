@@ -1,12 +1,12 @@
 <!-- 
-For medical reports and other media
+For reporting sleep time
 -->
 
 
 <!DOCTYPE html> 
 <html> 
 	<head> 
-	<title>Medical Records</title> 
+	<title>Sleep Report</title> 
 
 
 
@@ -20,29 +20,56 @@ For medical reports and other media
 <div data-role="page">
 
 	<div data-role="header">
-		<h1>Medical Records</h1>
+		<h1>Sleep Report</h1>
 		<a href="index.html" data-icon="home" data-direction="reverse">Home</a>
 	</div><!-- /header -->
 
 	<div data-role="content">	
 		
+		<p>
+			Gain 10 points for adding a sleep report
+		</p>
 
-		<ul data-role="listview" data-inset="true">
-			<li>Emergency</li>
-			<li>Allergies</li>
-			<li>Immunisations</li>
-			<li>Injuries</li>
-			<li>Mental Health</li>
-			<li>Family History</li>
 
-		</ul>
+	
 
-		<ul data-role="listview" data-inset="true">
-			<li>X-Rays</li>
-			<li>Pictures</li>
-			
-		</ul>
+
+		<div data-role="fieldcontain">
+	         <label for="number">How many hours did you sleep last night?</label>
+	         <input type="number" name="number" id="number" value="" />
+		</div>
+
+
 		
+
+		<button type="submit" data-theme="a">Add</button>
+
+		
+		<ul>
+			<li>
+				<a href="#">Past Entries</a>
+			</li>
+
+
+			<li>
+				<a href="settings.html">Sync with other services</a>
+			</li>
+		</ul>
+
+
+<!-- 
+		<ul data-role="listview" data-inset="true">
+			
+			<li><a href="#">Medical Data</a></li>	
+			<li><a href="#">Settings</a></li>
+		</ul>
+ -->
+
+		<!--
+		
+		recently added data
+
+		-->
 
 
 
